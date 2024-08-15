@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kokoa Challenge</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body>
+    <h1>Create An Account</h1>
+    
+    <form>
+      <div>
+        <label for="first-name">First Name</label>
+        <input id="first-name" type="text" placeholder="First Name" required />
+      </div>
+
+      <div>
+        <label for="last-name">Last Name</label>
+        <input id="last-name" type="text" placeholder="Last Name" required />
+      </div>
+
+      <div>
+        <label for="Email">Email</label>
+        <input id="Email" type="email" placeholder="Email" required />
+      </div>
+
+      <div>
+        <label for="username">Username</label>
+        <input id="username" type="text" placeholder="Username" required />
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="Password" minlength="10" required />
+      </div>
+
+      <div>
+        <label for="birth-date">Birth Date</label>
+        <input id="birth-date" type="date" required />
+      </div>
+
+      <div>
+        <label for="happy">How Happy Are You?</label>
+        <input id="happy" type="range" required />
+      </div>
+
+      <div>
+        <label for="color">What Is Your Fav. Color?</label>
+        <input id="color" type="color" required />
+      </div>
+
+      <input type="submit" value="Create Account" />
+    </form>
+  </body>
+
+  <style> 
+  h1 {
+    font-weight: 800;
+  }
+
+  form div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  form > div > input {
+    margin-left:5px;
+  }
+
+  form > div > label {
+    font-weight:800;
+  }
+  </style>
+</html>
